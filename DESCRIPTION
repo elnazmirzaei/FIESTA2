@@ -1,0 +1,26 @@
+Package: FIESTA2
+Title: Factorization-based Inferred Expression Single-cell Transcriptomic Analysis (FIESTA)
+Version: 1.2.0
+Authors@R: 
+    c(
+    person(given = "Elnaz",
+           family = "Mirzaei Mehrabad",
+           role = c("aut", "cre"),
+           email = "e.mirzaei.m@gmail.com"),
+           person(given = "Benjamin", family = "Spike", email = "benjamin.spike@hci.utah.edu", 
+        role = c("aut")))
+Description: A non-negative matrix factorization approach to impute missing values in single-cell RNAseq data sets.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Imports: 
+    NMF,
+    fitdistrplus,
+    mixtools,
+    Seurat,
+    ggplot2,
+    MASS,
+    reticulate,
+    cowplot
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
